@@ -23,4 +23,19 @@ mkdir my_project
 cd my_project
 git init
 ```
-Это лишь некоторые функции markdown. 
+Это лишь некоторые функции markdown.
+
+
+HEAD -- это голова.
+Коммит -- это всему голова.
+Статусы файлов:
+<е изменено (Unmodified), изменено (Modified), подготовленное (Staged)!>
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
